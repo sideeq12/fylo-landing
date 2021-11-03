@@ -100,6 +100,16 @@ button:hover{
     width: 28vw;
     background-color: #0f1d2b;
 }
+.cardEnd .imageText{
+    display: flex;
+}
+
+.cardEnd .imageText img{
+    width : 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
 #accessKey{
     width: 70vw;
     padding: 20px;
@@ -119,6 +129,7 @@ button:hover{
 }
 .sign input{
     width: 55%;
+    border-radius: 5px;
 }
 .sign button{
     height: 30px;
@@ -145,6 +156,7 @@ button:hover{
 }
     .sign button{
         width: 35%;
+        font-size: smaller;
     }
     #end .cardEnd{
         width: 70vw;
