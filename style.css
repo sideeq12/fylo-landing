@@ -157,7 +157,7 @@ button:hover{
 }
     .sign button{
         width: 40%;
-        font-size: smaller;
+        font-size: 10px;
     }
     #end .cardEnd{
         width: 70vw;
