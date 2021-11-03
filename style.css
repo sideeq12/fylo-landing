@@ -1,0 +1,154 @@
+body{
+    background-color: #09131d;
+    color: white;
+}
+.upper_section .nav{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.upper_section .nav ul {
+    display: flex;
+  
+    list-style: none;
+}
+.upper_section .nav ul li{
+    margin-right: 40px;
+}
+.home{
+    width: 100%;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+.icon{
+    color: #08BDBD;
+    margin-bottom: 10px;
+}
+
+.home p{
+    width: 50vw;
+    text-align: center;
+}
+.home img{
+    width: 60vw;
+}
+button{
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    color: white;
+    background-image: linear-gradient(to bottom right, #08BDBD, rgba(255, 255, 255, 0.753));
+}
+button:hover{
+    cursor: pointer;
+    background-color: #2c7575;
+    transform: scale(1.1);
+    transition: .2s;
+}
+ .list{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: black;
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+}
+#third{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#third .text{
+    width: 40vw;
+}
+#third .text .textbtn{
+    color: #08BDBD;
+    border-bottom: 1px solid #08BDBD;
+    padding: 10px;
+    width: fit-content;
+}
+#third img{
+    width: 40vw;
+}
+#end{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+#end .cardEnd{
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 28vw;
+    background-color: #0f1d2b;
+}
+#accessKey{
+    width: 70vw;
+    padding: 20px;
+    margin: 0 auto -50px;
+    z-index: 2;
+    background-color: #0f1d2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sign{
+    width: 100%;
+}
+.sign input{
+    width: 55%;
+}
+.sign button{
+    height: 30px;
+    width: 25%;
+    font-size: small;
+    border-radius: 3px;
+}
+#accessKey p{
+    width: 80%;
+}
+#footer{
+    background-color: black;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width : 760px) {
+    .sign button{
+        width: 35%;
+    }
+    #end .cardEnd{
+        width: 70vw;
+    }
+    .h2{
+        width: 320px;
+    }
+    #third img{
+        width: 70vw;
+    }
+    #third .text{
+        width: 80vw;
+        margin-top: 25px;
+    }
+    
+}
