@@ -103,7 +103,9 @@ button:hover{
 #accessKey{
     width: 70vw;
     padding: 20px;
-    margin: 0 auto -50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     z-index: 2;
     background-color: #0f1d2b;
     display: flex;
@@ -127,6 +129,7 @@ button:hover{
     width: 80%;
 }
 #footer{
+    z-index: -1;
     background-color: black;
     height: 300px;
     display: flex;
@@ -134,6 +137,11 @@ button:hover{
     align-items: center;
 }
 @media (max-width : 760px) {
+    #accessKey{
+        width: 90vw;}
+.home p, .home img{
+    width: 80vw;
+}
     .sign button{
         width: 35%;
     }
